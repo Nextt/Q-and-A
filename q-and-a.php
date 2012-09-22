@@ -22,8 +22,6 @@ define( 'Q_A_PLUS_VERSION', '1.0.1' );
 
 define ( 'Q_A_PLUS_URL', plugins_url( '' ,  __FILE__ ) );
 
-load_plugin_textdomain('qa-free', false, basename(dirname(__FILE__)) . '/lang');
-
 //our main functions file
 require ( Q_A_PLUS_PATH . 'inc/functions.php'); 
 
@@ -31,3 +29,13 @@ require ( Q_A_PLUS_PATH . 'inc/functions.php');
 if ( is_admin() ) { 
 	require( Q_A_PLUS_PATH . 'admin/q-a-plus-admin.php' );
 }
+
+
+/**
+ *  load plugin text domain for translation
+ *  @since Q and A  1.0.1
+ */
+function q_and_a_lang_init() {
+    load_plugin_textdomain('qa-free', false, basename(dirname(__FILE__)) . '/lang');
+}
+add_action('init','q_and_a_lang_init');
