@@ -94,7 +94,7 @@ Version 1.0 is an all new plugin. Your FAQs will be be preserved, but you may ne
 
 * Fixed incorrect site url for search box for sites installed in subdirectories.
 
-* Added option to disable custom permalink filters
+* Added text domain for translation.
 
 = 1.0.5 = 
 
@@ -109,7 +109,6 @@ Version 1.0 is an all new plugin. Your FAQs will be be preserved, but you may ne
 * Added in option for breadcrumbs in single FAQ titles
 
 * Cleaned up some CSS
-
 
 
 = 1.0.4 =
