@@ -1,10 +1,10 @@
-=== Q and A  ===
+=== Q and A FAQ and Knowledge Base for WordPress ===
 Author: daltonrooney
 Author URL: http://madebyraygun.com
 Plugin URL: http://wordpress.org/extend/plugins/q-and-a/
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.0.6
+Stable tag: 1.0.6.2
 
 Create a powerful and easy to use FAQ & knowledge base on your WordPress site.
 
